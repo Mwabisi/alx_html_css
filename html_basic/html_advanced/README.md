@@ -1,0 +1,1 @@
+For this project we were asked to focus our project on HTML structure only with no CSS, no style - just pure HTML semantic.
