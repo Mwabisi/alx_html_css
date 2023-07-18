@@ -109,7 +109,7 @@
   
   body {
     color: var(--text-color);
-    font-family: var(--font-family-base);
+    font-family: var(Arial,sans-serif);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
@@ -120,6 +120,14 @@
     font-weight: var(--font-weight-bold);
   }
   
+  .row{
+    display: flex;
+  }
+
+  [class*='col-']{
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
   a {
     color: var(--text-color);
     text-decoration: none;
